@@ -56,7 +56,7 @@ source server_cleanup.sh
 source motd.sh
 source server_harden.sh
 source $STORAGE_ROOT/yiimp/.yiimp.conf
-
+source fix_php_issues.sh
 clear
 
 if [[ ("$UsingDomain" == "yes") ]]; then
