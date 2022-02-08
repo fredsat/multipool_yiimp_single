@@ -11,7 +11,7 @@ function print_error {
 trap print_error ERR
 
 # PHP fixes
-echo -e " Installing required PHP Packages...$COL_RESET"
+echo -e " Installing required PHP Packages..."
 
 sudo apt install php8.1-memcache php8.1-memcached php7.3-memcache php7.3-memcached memcached php-memcached -y
 sudo apt install php8.1-mysql php8.1-curl -y
