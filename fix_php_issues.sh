@@ -19,4 +19,4 @@ sudo apt install php7.3-mysql php7.3-curl -y
 sudo service nginx restart
 
 set +euxo pipefail
-cd $HOME/multipool/yiimp_single
+cd $HOME
